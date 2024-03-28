@@ -53,3 +53,77 @@ header {
 .e-menuheader li {
   color: #ffffff;
 }
+.e-bemvindo {
+  display: grid;
+  max-width: 1440px;
+  height: 567px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  background-image: url(imagens/background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  place-items: center;
+}
+.e-bemvindo img {
+  grid-column: 2;
+  align-self: center;
+  justify-self: start;
+}
+.g-texto-bem-vindo {
+  grid-column: 1;
+  grid-row: 1;
+  width: 455px;
+  height: 221px;
+  justify-self: end;
+  align-items: center;
+  margin: 0px;
+}
+#t-medium {
+  font-size: 54px;
+  font-weight: 400;
+}
+.g-texto-bem-vindo h1 {
+  font-size: 64px;
+  line-height: 45px;
+  color: #fdfeff;
+  margin-bottom: 10px;
+}
+.g-texto-bem-vindo p {
+  color: #fdfeff;
+  max-width: 35ch;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+.e-contrata {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #bbd4ff;
+  color: #7da8f2;
+  font-size: 17px;
+  padding: 10px 60px;
+  border-radius: 30px;
+}
+.g-buttom {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 20px;
+}
+.e-quemsomos {
+  max-width: 300px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #bbd4ff;
+  color: #bbd4ff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border-left: 10px;
+}
+
+.e-quemsomos h4 {
+  display: none;
+}
+.e-quemsomos {
+  max-width: 30px;
+  color: #252525;
+}
