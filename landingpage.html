@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" type="text/css" href="landingpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <title>OdontoEase</title>
 </head>
+
 <body>
-    <!--HEADER-->
-    
+    <header>
+        <div class="subheader" style="font-size: 10px ;">
+            <h1> o ruan dá viu</h1>
+        </div>
+        <div class="g-header">
+            <div class="e-logotipo">
+                <h1> Logotipo </h1>
+            </div>
+            <nav class="g-navmenu">
+                <ul>
+                    <li> <a href="/" id="e-animd">
+                            <h1 id="t-1">home</h1>
+                        </a> </li>
+                    <li> <a href="/" id="e-animd">
+                            <h1 id="t-1">home</h1>
+                        </a> </li>
+                    <li> <a href="/" id="e-animd">
+                            <h1 id="t-1">home</h1>
+                        </a> </li>
+                    <li> <a href="/" id="e-animd">
+                            <h1 id="t-1">home</h1>
+                        </a> </li>
+                    <li> <a href="/" id="e-animd">
+                            <h1 id="t-1">home</h1>
+                        </a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- continução do projeto-->
+    </main>
+    <script>
+        const wave = document.getElementById('t-1');
+        const text = wave.innerText;
+        wave.innerHTML = '';
+        for (let i = 0; i < text.length; i++) {
+            const span = document.createElement('span');
+            span.textContent = text[i];
+            span.classList.add('wave');
+            span.style.setProperty('--contagemletra', i);
+            wave.appendChild(span);
+        }
+
+    </script>
 </body>
+
 </html>
